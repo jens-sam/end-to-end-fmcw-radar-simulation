@@ -127,9 +127,9 @@ The Verilog testbench uses representative encoded feature vectors. It demonstrat
 ```text
 end-to-end-fmcw-radar-simulation/
 ├── README.md
-├── 01_lfm_matched_filter_demo.m
-├── 02_generate_physics_based_fmcw_data.m
-├── 03_process_fmcw_detection_features.m
+├── a_lfm_matched_filter_demo.m
+├── b_generate_physics_based_fmcw_data.m
+├── c_process_fmcw_detection_features.m
 ├── radar_classifier.v
 ├── radar_classifier_tb.v
 ```
@@ -143,6 +143,6 @@ end-to-end-fmcw-radar-simulation/
 ### Execution Order
 
 ```matlab
-run("01_lfm_matched_filter_demo.m")
-run("02_generate_physics_based_fmcw_data.m")
-run("03_process_fmcw_detection_features.m")
+run("a_lfm_matched_filter_demo.m")
+run("b_generate_physics_based_fmcw_data.m")
+run("c_process_fmcw_detection_features.m")
