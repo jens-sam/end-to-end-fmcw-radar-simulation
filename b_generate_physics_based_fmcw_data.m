@@ -1,3 +1,5 @@
+%% Copyright © 2026 Sam Jensen. All rights reserved.
+
 %% b_generate_physics_based_fmcw_data.m
 % Step 6C: Generate physics-based FMCW IQ data
 %
