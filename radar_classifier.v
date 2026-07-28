@@ -1,3 +1,5 @@
+// Copyright © 2026 Sam Jensen. All rights reserved.
+
 module radar_classifier (
     input target_valid,
     input [7:0] range_code,
