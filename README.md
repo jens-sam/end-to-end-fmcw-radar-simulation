@@ -146,3 +146,31 @@ end-to-end-fmcw-radar-simulation/
 run("a_lfm_matched_filter_demo.m")
 run("b_generate_physics_based_fmcw_data.m")
 run("c_process_fmcw_detection_features.m")
+```
+
+File `a_lfm_matched_filter_demo.m` is a standalone demonstration. File `b_generate_physics_based_fmcw_data.m` generates the scenario data required by `c_process_fmcw_detection_features.m`.
+
+## Running the Verilog Simulation
+
+Using Icarus Verilog:
+
+```bash
+iverilog -o radar_sim radar_classifier.v tb_radar_classifier.v
+vvp radar_sim
+```
+
+### RTL Simulation Results
+
+Representative encoded radar-feature inputs produced the expected one-hot classification outputs for all five test cases.
+
+```text
+scenario,target_valid,range,speed,amp,spread,motion,dog,human,car,plane,alien
+dog_case,1,22,6,120,9,8,1,0,0,0,0
+human_case,1,18,2,90,5,4,0,1,0,0,0
+car_case,1,80,28,210,2,1,0,0,1,0,0
+plane_case,1,200,95,240,1,1,0,0,0,1,0
+alien_case,1,44,13,160,12,15,0,0,0,0,1
+```
+
+Each valid target activated exactly one classification output, verifying the rule-based classifier and dedicated testbench through RTL simulation.
+
