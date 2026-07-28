@@ -1,3 +1,5 @@
+%% Copyright © 2026 Sam Jensen. All rights reserved.
+
 %% a_lfm_matched_filter_demo.m
 % Step 6B: Explicit LFM matched filtering and pulse compression
 %
