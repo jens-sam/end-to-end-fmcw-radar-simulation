@@ -174,3 +174,8 @@ alien_case,1,44,13,160,12,15,0,0,0,0,1
 
 Each valid target activated exactly one classification output, verifying the rule-based classifier and dedicated testbench through RTL simulation.
 
+## Copyright
+
+Copyright © 2026 Sam Jensen. All rights reserved.
+
+This repository is provided for portfolio and educational review purposes. The source code may not be copied, modified, distributed, or used without prior written permission from the author.
