@@ -1,3 +1,5 @@
+%% Copyright © 2026 Sam Jensen. All rights reserved.
+
 %% c_process_fmcw_detection_features.m
 % Step 6D: Process physics-based FMCW scenarios
 %
