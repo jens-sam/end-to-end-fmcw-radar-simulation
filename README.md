@@ -67,17 +67,21 @@ A standalone linear frequency-modulated pulse-compression experiment was impleme
 
 The matched filter is defined as the time-reversed complex conjugate of the transmitted waveform:
 
-\[
+$$
 h(t)=s^{*}(T_p-t)
-\]
+$$
 
 For a 20 MHz waveform bandwidth and a 10 μs pulse duration, the time-bandwidth product is:
 
-\[
+$$
 BT_p=200
-\]
+$$
 
-This corresponds to a theoretical processing gain of approximately 23.01 dB.
+This corresponds to a theoretical processing gain of approximately:
+
+$$
+G_p = 10\log_{10}(BT_p) = 10\log_{10}(200) = 23.01\ \text{dB}
+$$
 
 | Matched-Filter Metric | Result |
 |---|---:|
