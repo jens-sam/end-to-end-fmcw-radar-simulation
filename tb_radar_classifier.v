@@ -1,3 +1,5 @@
+// Copyright © 2026 Sam Jensen. All rights reserved.
+
 `timescale 1ns/1ps
 
 module tb_radar_classifier;
